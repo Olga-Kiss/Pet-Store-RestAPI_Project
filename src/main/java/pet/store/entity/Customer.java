@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 package pet.store.entity;
 
 import java.util.HashSet;
@@ -13,10 +16,12 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
 
+/**
+ * 
+ */
 @Entity
 @Data
 public class Customer {
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long customerId;
